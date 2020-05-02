@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:text="Edit an Existing Record"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold|italic"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ellipsize="start"
+            android:maxLength="10"
+            android:id="@+id/amount"
+            android:hint="Enter Amount"
+            android:singleLine="true"
+
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amount"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:text="Click Here to Select a Date"
+            android:textColor="#008CBA"
+            android:textStyle="italic"
+            android:id="@+id/tvDate"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDate"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ellipsize="start"
+            android:maxLength="10"
+            android:id="@+id/eid"
+            android:hint="Enter ID"
+            android:singleLine="true"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eid"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnEdit"
+            android:text="Save"
+            android:layout_marginTop="50dp"
+            android:background="#4CAF50"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

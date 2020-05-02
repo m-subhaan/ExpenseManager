@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="Fuel"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/txt2"
+        android:layout_below="@+id/txt1"
+        android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/txt3"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="100dp"
+            android:text="Food" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/txt4"
+            android:layout_below="@+id/txt3"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Education"
+            android:id="@+id/txt5"
+            android:layout_below="@+id/txt2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/txt6"
+            android:layout_below="@+id/txt5"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/txt7"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txt4"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Misc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/txt8"
+            android:layout_below="@+id/txt7"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt6"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/btn1"
+            android:text="Add"
+            android:layout_marginTop="50dp"
+            android:background="#4CAF50"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txt8"
+            android:id="@+id/btn2"
+            android:text="Edit"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#e7e7e7"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn1"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/btn3"
+            android:text="Delete"
+            android:layout_marginTop="20dp"
+            android:background="#cb4154"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btn2"
+            android:id="@+id/btn4"
+            android:text="Show All"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:background="#008CBA"/>
+    </RelativeLayout>
+
+
+</ScrollView>
